@@ -1,0 +1,28 @@
+{
+  "project": "REPLACE: Project Name",
+  "access_tiers": [
+    {
+      "tier": "free",
+      "includes": ["canonical index", "sample chapters", "glossary"],
+      "paths": ["access/free/"],
+      "entrypoints": [
+        "access/LLM_ENTRYPOINT.md",
+        "access/free/README.md"
+      ]
+    },
+    {
+      "tier": "paid",
+      "includes": ["full volumes", "study guides", "workbook", "companion datasets"],
+      "paths": ["access/paid/"]
+    },
+    {
+      "tier": "premium",
+      "includes": ["cohort course", "certification", "consulting"],
+      "paths": ["access/premium/"]
+    }
+  ],
+  "canonical_index": {
+    "pointer_file": "access/links/CANONICAL_INDEX.md",
+    "source_of_truth": true
+  }
+}
