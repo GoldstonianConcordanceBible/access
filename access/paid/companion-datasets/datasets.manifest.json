@@ -1,0 +1,17 @@
+{
+  "type": "companion_datasets_manifest",
+  "version": "1.0",
+  "items": [
+    {
+      "dataset_id": "dataset-001",
+      "title": "REPLACE: Dataset Title",
+      "maps_to": {
+        "series": "REPLACE",
+        "volume": "REPLACE"
+      },
+      "format": ["csv", "json"],
+      "access": "paid",
+      "notes": "Machine-readable companion dataset"
+    }
+  ]
+}
